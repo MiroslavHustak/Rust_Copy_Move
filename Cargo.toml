@@ -3,4 +3,8 @@ name = "rust_copy_move"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "rust_copy_move"
+crate-type = ["cdylib"]
+
 [dependencies]
